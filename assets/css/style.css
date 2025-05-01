@@ -1,0 +1,254 @@
+/* Start Global Rules */
+:root {
+  --main-color: #331b41;
+  --sec-color: #1a34b0;
+  --gradient-color: linear-gradient(270deg, #9d40fc 0%, #52bdf5 100%);
+  --main-radius: 15px;
+  --main-transition: 0.2s;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat Arabic";
+}
+
+.arabic-version {
+  direction: rtl;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  margin-top: 2px;
+}
+
+.btn i {
+  padding-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  ul {
+    padding: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+  z-index: 999;
+  background-color: rgb(77, 194, 71) !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.whatsapp i {
+  color: white;
+  font-size: 2rem;
+}
+
+h1 {
+  position: relative;
+  color: #331b41;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 82px;
+  right: 0;
+  background-color: var(--main-color);
+  bottom: -20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+.head p {
+  color: var(--first-color);
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .head p {
+    font-size: 16px;
+  }
+}
+
+.box-cyan {
+  background-color: #69c9d0;
+}
+
+.box-blue {
+  background-color: #1877f2;
+}
+
+.box-purple {
+  background-color: #9a44fc;
+}
+
+.box-yellow {
+  background-color: #ffe400;
+}
+
+.btn {
+  height: 48px;
+  border: none;
+}
+
+.btn:hover {
+  background: var(--gradient-color);
+  border: 0;
+}
+
+.btn i {
+  margin-top: 5px;
+}
+
+.main-btn {
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid var(--main-color);
+}
+
+.main-btn span,
+.main-btn i {
+  color: #fff !important;
+}
+
+.main-btn:hover {
+  background-color: #fff;
+  border: 1px solid var(--main-color);
+}
+
+.main-btn:hover span,
+.main-btn:hover i {
+  color: var(--main-color) !important;
+}
+
+.second-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.second-btn i,
+.second-btn span {
+  color: var(--main-color) !important;
+}
+
+.second-btn:hover {
+  text-decoration: underline;
+}
+
+/* End Global Rules */
+/* Fonts */
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-Black-900.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-ExtraBold-800.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-Bold-700.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-SemiBold-600.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-Medium-500.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-Regular-400.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-Light-300.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-ExtraLight-275.otf") format("opentype");
+  font-weight: 275;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Arabic";
+  src: url("../fonts/fonts/Montserrat-Arabic-Thin-250.otf") format("opentype");
+  font-weight: 250;
+  font-style: normal;
+}

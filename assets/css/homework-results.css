@@ -1,0 +1,11 @@
+.student-dashboard-content thead th {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .student-dashboard-content table {
+        width: 700px;
+        overflow: auto;
+    }
+}
