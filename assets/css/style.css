@@ -1,7 +1,8 @@
 /* Start Global Rules */
 :root {
-  --main-color: #331b41;
-  --sec-color: #1a34b0;
+  --main-color: #A0354D;
+  --sec-color: #09122C;
+  --third-color: #ecf5ff;
   --gradient-color: linear-gradient(270deg, #9d40fc 0%, #52bdf5 100%);
   --main-radius: 15px;
   --main-transition: 0.2s;
@@ -134,12 +135,10 @@ p {
 }
 
 .btn {
-  height: 48px;
   border: none;
 }
 
 .btn:hover {
-  background: var(--gradient-color);
   border: 0;
 }
 
@@ -199,6 +198,10 @@ label {
 
 .form-control {
   text-align: right;
+}
+
+.logo-img {
+  width: 100px;
 }
 
 /* End Global Rules */
