@@ -119,9 +119,6 @@
     color: white !important;
 }
 
-.form-container #contactButton:hover {
-    background: var(--gradient-color) !important;
-}
 
 @media (max-width: 992px) {
     .form-container .pic img {
@@ -145,7 +142,7 @@
 
 .form-container .new {
     text-decoration: none;
-    color: #9a44fc;
+    color: #007aff;
 }
 
 .form-container .new:hover {
